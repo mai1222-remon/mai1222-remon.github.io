@@ -1,0 +1,266 @@
+
+/*header*/
+header{
+	background-color: #e9967a 0;
+	color: #4169e1;
+	font-size: 18px;
+	padding: 5px 0;
+	display:  flex;
+	justify-content: space-between;
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+	margin-top:-70px;
+}
+
+#margin-fo-fixed{
+	margin-top: 70px
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+}
+
+.icon img{
+	height: 60px;
+}
+
+.icon .name strong{
+	color:  #eae51f;
+}
+
+.header-right{
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+}
+
+.header-right li:first-child{
+	margin-right: 20px;
+}
+/*header ここまで*/
+
+/* welcom*/
+#margin-for-fixed{
+	margin-top: 70px; 
+}
+.have{
+	height: 500px;
+	background-image: url(../img/backgrond1.jpg);
+	color:  #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title{
+	font-size: 64px;
+}
+
+.guideline{
+	font-size: 28px;
+	font-weight:  bold;
+	margin-top: 50px;
+}
+
+.guideline li{
+	margin-top: 16px;
+}
+
+.btn-gronp{
+	margin-top: 60px;
+}
+
+.btn{
+	height: 55px;
+	width: 170px;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 28px;
+	margin-left: 120px;
+	cursor: pointer;
+	}
+
+.btn:first-child{
+	margin-left: 0;
+}
+
+.register{
+	background-color: rgba(29,172,224,.5); 
+	border: 3px solid rgba(29,172,224,.3);
+}
+
+.register:hover{
+	background-color:  rgb(29,172,224);
+}
+
+.login{
+	background-color: rgba(236,227,35,.5);
+	border: 3px solid rgba(236,227,35,.3) 
+}
+.login:hover{
+	background-color: rgb(236,227,35);
+}
+/* welcom ここまで */
+
+/* curriculum */
+.curriculm{
+	margin-top: 50px;
+}
+
+.subtitle{
+	font-size: 36px;
+	text-align: center;
+}
+
+.img-box{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.img-box li{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-right: 60px;
+}
+
+.img-box li:last-child{
+	margin-right: 0;
+}
+.img-box li img {
+	height: 300px;
+	width: 300px;
+}
+.img-box li span{
+	font-size: 24px;
+	margin-top: 20px;
+}
+/* contact*/
+.contact{
+	text-align: center;
+	background-color: #edf4f5;
+	margin-top: 50px;
+	height: 350px;
+}
+/*スマホ用*/
+@media screen and (max-width: 480px){
+   body {
+		min-width: 375px;
+	}
+	/*header*/
+	.icon{
+		margin-left: 20px;
+	}
+	.icon .name{
+		display:  none;
+	}
+	.header-right{
+		display: none;
+	}
+    /*headerここまで*/
+    .form .name {
+    margin-bottom: 20px;
+}}
+	/*welcome*/
+	.title{
+		font-size: 30px;
+	}
+	
+	.guideline{
+		margin-top: 30px;
+		font-size: 24px;
+		font-weight: normal;
+	}
+
+	.btn-group{
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		margin-top: 40px;
+	}
+
+	.btn{
+		height: 48px;
+		width: 140px;
+		font-size: 24px;
+		margin-left: 0;
+		margin-top: 20px;
+		font-weight: bold;
+		border-radius: 10px; 
+	}
+
+	.btn:first-child{
+		margin-top: 0;
+	}
+
+	/*curriculum*/
+	.img-box{
+		flex-flow: column nowrap;
+	}
+	.img-box li{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0;
+		margin-top: 30px; 
+	}
+	.img-box li:farst-child{
+		margin-top: 0;
+	}
+
+
+	.img-box li span {
+		font-size:16px; 
+		margin-top:20px;
+	}
+
+	/*contact*/
+.contact .form{
+	flex-flow: column nowrap;
+	margin: 30px 0;
+}
+
+.form .name,.form .email, .form .inquiry{
+	width: 80%;
+}
+
+
+.form .name,.form .email{
+	height: 30px;
+}
+.form .inquiry{
+	height: 50px;
+}
+.form-left{
+	margin-right: 0; 
+}
+.form-right{
+	margin-top: 20px;
+}
+.contact button{
+	font-size: 20px;
+	padding: 5px 40px;
+}
+	/*footer*/
+
+footer{
+	display: flex;
+	justify-content: center;
+}
+footer .icon{
+	display: none;
+}
+footer .footer-right{
+	margin-right: 0;
+}
+
+}
+
+
