@@ -253,6 +253,7 @@ header{
 footer{
 	display: flex;
 	justify-content: center;
+	height:70px; 
 }
 footer .icon{
 	display: none;
